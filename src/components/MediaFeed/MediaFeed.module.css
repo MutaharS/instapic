@@ -1,0 +1,10 @@
+.mediaFeed {
+    width: 35%;
+}
+
+.postWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    /* min-height: 64vh; */
+}

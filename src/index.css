@@ -1,0 +1,17 @@
+
+#root, body, html {
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(104, 120, 200) 0%, rgba(47,32,101,1) 100%);
+}
+
+body {
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+}
+
+.fill-height {
+  height: 100vh;
+  margin-left: 7vw;
+}

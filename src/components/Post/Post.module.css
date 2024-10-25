@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.postClass, .createPostClass {
+    color: white;
+    border-radius: 15px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: "Raleway";
+    font-size: 200%;
+    /* height: 100%; */
+}
+
+.videoClass {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.heartOpen {
+    color: black;
+}
+
+.heartFull {
+    color: rgb(154, 10, 125);
+}
+
+.commentClass {
+    color: black;
+    margin-left: 6%;
+    transform: scale(1.5)
+}
+
+.commentClass:hover, .heartOpen:hover {
+    transform: scale(1.7)
+    rotate(10deg);
+    filter: invert(1)
+}
+
+.userName {
+    font-size: 120%;
+}

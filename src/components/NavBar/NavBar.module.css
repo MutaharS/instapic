@@ -1,0 +1,13 @@
+.navbarBrand {
+    font-size: 200%;
+}
+
+.navLink {
+    margin-left: 0.5em;
+    font-size: 200%;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    filter: blur(0.05rem)
+}
